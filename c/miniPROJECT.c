@@ -29,18 +29,14 @@ int main() {
   	  	  	printf("le stock est plein impossible dajouter autre livre");
 			  } else{
 			  	printf("entre le nom de livre : ");
-			  	fflush(stdout);
 			  	scanf(" %[^\n] ",titre[nblivre]);
 			  	printf("entre le nom de lauture: ");
-			  	fflush(stdout);
 			  	scanf(" %[^\n] ",auteur[nblivre]);
 			  	while(getchar() != '\n');
 			  	printf("entre le prix de livre: ");
-			  	fflush(stdout);
 			  	scanf("%f",&prix[nblivre]);
 			  	while(getchar() != '\n');
 			  	printf("entre le quantite de stock: ");
-			  	fflush(stdout);
 			  	scanf("%d",&quantite[nblivre]);
 			  	while(getchar() != '\n');
 			  	nblivre++;
