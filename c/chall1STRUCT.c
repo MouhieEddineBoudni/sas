@@ -1,17 +1,41 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-struct perso{
-	 char nom[50];
-	 char prenom[50];
-	 int age;
-};
-    
+#include<stdio.h>
 
 int main(){
-   struct perso p1={"zaki","rabi3i",21};	
-	printf("votre nom : %s\n",p1.nom);
-	printf("votre prenom : %s\n",p1.prenom);
-	printf("votre age : %d\n",p1.age);
-    return 0;
-}
+	int n;
+	  printf("donner le nombre de element :");
+	  scanf("%d",&n);
+	int min;
+	int index=0;
+	int i;
+	int tab[i];
+	printf("remplir les element de tab:\n");
+	 for(i=0;i<n;i++){
+	 	scanf("%d",&tab[i]);
+	 } if(tab[i]<min){
+	 	min=tab[i];
+	 	index=i;
+	 }
+	 printf("le min est %d est lindex %d",min,index);
+	 return 0;
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
